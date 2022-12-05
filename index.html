@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign-Up</title>
+</head>
+<body>
+    <div id="hero">
+        <img class="signature" src="/Images/Signature.svg">  
+        <div id="hero-text">Photo by <a href="https://unsplash.com/@robbin_ec">Robbin Grimm</a> on <a href="https://unsplash.com/">Unsplash</a></div>
+    </div>
+    <div id="content">
+        <div id="top-one">This is not a real online service! Join today and begin sharing your story!</div>
+        <div id="top-two">You know you want to.</div>
+        <div id="form">
+            <form action="">
+                <legend>Personal Information</legend>
+
+                <label for="first-name">FIRST NAME*
+                <input type="text" name="first-name" id="first-name" required>
+                </label>
+
+                <label for="last-name">LAST NAME*
+                <input type="text" name="last-name" id="last-name" required>
+                </label>
+
+                <label for="email">EMAIL*
+                <input type="email" name="email" id="email" required>
+                </label>
+
+                <label for="phone-number">PHONE NUMBER
+                <input type="phone-number" name="phone-number" id="phone-number">
+                </label>
+
+                <label for="password">PASSWORD*
+                <input type="password" name="password" id="password" required>
+                </label>
+
+                <label for="confirm-password">CONFIRM PASSWORD*
+                <input type="password" name="confirm-password" id="confirm-password" required class="error">
+                </label>
+
+                <button type="submit" class="error">Create Account</button>
+            </form>
+
+            <div id="bottom">Already have an account? <a href=".">Log in</a></div>
+        </div>
+    </div>
+</body>
+</html>
